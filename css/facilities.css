@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, cyan, rgb(199, 67, 228));
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: repeat;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.heading h1{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.fac{
+    padding: 20px;
+}
+
+.container{
+    width: 80%;
+    margin-top: 5%;
+    
+}
+.image_container{
+    width: 25%;
+    float: left;
+    margin: 3.5%;
+    height: 40%;
+}
+.image{
+    width: 100%;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.content{
+    background-color: white;
+    border-radius: 15px;
+    width: 90%;
+}
+
+.footer{
+    padding-top: 10px;
+}
